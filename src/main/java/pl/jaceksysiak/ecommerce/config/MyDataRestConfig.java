@@ -1,11 +1,13 @@
 package pl.jaceksysiak.ecommerce.config;
 
+import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 import org.springframework.http.HttpMethod;
 import pl.jaceksysiak.ecommerce.entity.Product;
 import pl.jaceksysiak.ecommerce.entity.ProductCategory;
 
+@Configuration
 public class MyDataRestConfig implements RepositoryRestConfigurer {
 
 
