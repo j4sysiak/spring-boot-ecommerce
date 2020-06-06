@@ -10,7 +10,6 @@ import pl.jaceksysiak.ecommerce.entity.ProductCategory;
 @Configuration
 public class MyDataRestConfig implements RepositoryRestConfigurer {
 
-
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
 
